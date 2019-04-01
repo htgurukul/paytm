@@ -1,8 +1,9 @@
 pipeline {
                 agent any
-
-        
-                stages {
+                triggers {
+		        githubPush()
+            }
+              stages {
                         
 
                         stage('Build Now') {
