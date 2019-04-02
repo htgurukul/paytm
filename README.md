@@ -6,3 +6,4 @@ update 2
 update 3
 last
 sleep1
+sleep 2
