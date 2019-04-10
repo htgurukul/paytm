@@ -21,7 +21,7 @@ pipeline {
 		      
 		      stage('load another'){
 			      steps {
-				      script { load "bakar.groovy" }
+				    load "bakar.groovy"
 			      }
 		      }
                   
