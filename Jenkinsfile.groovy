@@ -19,11 +19,11 @@ pipeline {
 
                                 }
 		      
-		      stage('load another'){
-			      steps {
-				    load "bakar.groovy"
-			      }
-		      }
+		  //    stage('load another'){
+			//      steps {
+			//	    load "bakar.groovy"
+			  //    }
+		      //}
                   
                 }
 }
