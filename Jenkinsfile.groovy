@@ -11,7 +11,7 @@ pipeline {
                                         
                                         echo "Inside Dir component"
                                         echo "Treating Workspaces as $WORKSPACE"
-                                        sh """ pwd; cat README.md """
+                                        sh """ pwd;ls -l ;echo back ; ls -l ../ ; cat README.md """
                                                 
 
                                 }
