@@ -7,9 +7,9 @@ pipeline {
                         stage('Future Now') {
                                 steps {
                                         
-                                        echo "Future component"
+                                       sh """ echo "Future component" ; pwd """
                                         
-                                                
+                                               
 
                                 }
                                 
